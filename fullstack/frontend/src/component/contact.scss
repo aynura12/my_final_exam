@@ -1,0 +1,12 @@
+.contact{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 50px;
+    border-bottom: 1px solid rgb(83, 81, 81);
+    .contact_icon{
+        display: flex;
+        color:rgb(0,48,114);   
+        gap:10px
+       }
+      
+   }

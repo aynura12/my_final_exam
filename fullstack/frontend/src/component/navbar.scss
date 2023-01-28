@@ -1,0 +1,45 @@
+.navbar{
+    font-family: 'Rubik', sans-serif;
+ width: 100%;
+   
+    .lists{
+        display: flex;
+        align-items: center;
+    }
+    .list{
+        list-style: none;
+        padding-right: 20px;
+        
+    }
+    .link{
+        color: rgb(49,110,194);
+        text-decoration: none;
+
+    }
+    .navbar-right{
+        display: flex;
+        gap :20px;
+        padding-right: 50px;
+    }
+    .button {
+       
+       
+        button{
+            width: 150px;
+            height: 40px;
+            background-color: white;
+            border: 2px solid  rgb(49,110,194);
+            color: rgb(49,110,194);
+        }
+    }
+    .navbar_icon{
+        display: flex;
+        i{
+            font-size: 40px;
+            padding-right: 7px;
+            padding-top: 2px;
+        } p{
+            color: rgb(49,110,194);
+        }
+    }
+}
